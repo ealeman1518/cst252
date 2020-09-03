@@ -1,5 +1,26 @@
+#content{
+  border: 5px black solid;
+  background-color: tan;
+}
+
+img.homepage{
+  width: 25%;
+  height: auto;
+  float: right;
+  border: 2px solid black;
+  filter: drop-shadow(5,5,0,);
+}
+
+h1{
+  color: yellow;
+}
+
 body{
   background: lightblue;
+}
+
+a:link{
+  text-decoration: none;
 }
 
 a{
