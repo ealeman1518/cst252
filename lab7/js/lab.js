@@ -5,7 +5,7 @@
 **/
 
 //userInput - takes user input and sorts it
-
+//Code by Wes Modes
 function userInput() {
     var userName = window.prompt("Hey there! Please input your name to have it fixed up!");
     console.log("userName =", userName);
