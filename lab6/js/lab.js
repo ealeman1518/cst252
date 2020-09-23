@@ -13,7 +13,7 @@ var myMainRide = {
   color: "Black",
   year: 2013,
   age: function() {
-    return 2020 - year;
+    return 2020 - this.year;
   }
 }
 
@@ -21,4 +21,5 @@ var myMainRide = {
 
 document.writeln("The kinds of transport that I use is: ", myTransport, "</br>");
 document.writeln("My totally not imaginary main ride is: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+    JSON.stringify(myMainRide, null, '\t'), "</pre>")
+document.writeln("The age of my ", myMainRide.model, " is ", myMainRide.age(), " years.");
