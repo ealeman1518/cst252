@@ -1,0 +1,36 @@
+#test1{
+  color: white;
+}
+
+#test2{
+  color: purple;
+}
+
+#content{
+  padding: 20px;
+}
+
+#output{
+  border: black 3px solid;
+  padding: 10px;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  margin-top: 20px;
+  color: blue;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+img{
+  width: 35%;
+  height: auto;
+  float: right;
+  border: black 2px solid;
+}
