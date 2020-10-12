@@ -7,7 +7,7 @@
 
 
 //Make fizzbuzz function
-function fizzBoomBam() {
+// function fizzBoomBam() {
 
   for (var input=0; input<200; input++) {
 
@@ -18,19 +18,24 @@ function fizzBoomBam() {
     console.log(input);
     var outputString = '';
     if (input%7 == 0) {
-      newEl.innerHTML = input + " FizzBuzzBoom";
-      output.El.appendChild(newEl);
-      console.log("FizzBuzzBoom")
+      newEl.innerHTML = input + " FizzBuzz";
+      outputEl.appendChild(newEl);
+      console.log("FizzBuzz")
     } else if (input%3 == 0) {
-      console.log("Test 2")
+      newEl.innerHTML = input + " Fizz";
+      outputEl.appendChild(newEl);
+      console.log("Fizz")
     } else if (input%5 == 0) {
-      console.log("Test 3")
+      newEl.innerHTML = input + " Buzz";
+      outputEl.appendChild(newEl);
+      console.log("Buzz")
     } else {
       console.log("Number: " + input)
     }
   }
     // addNewParagraphToOutput(outputString);
-}
+//     return;
+// }
 
 var button = document.getElementById("my-button");
 button.addEventListener("click", function() {
