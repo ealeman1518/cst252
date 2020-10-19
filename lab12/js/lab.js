@@ -7,40 +7,38 @@
 
 
 //Make fizzbuzz function
-// function fizzBoomBam() {
+function fizzBoomBam(number) {
 
-  for (var input=0; input<200; input++) {
+  var outputEl = document.getElementById("script-output");
 
-  //make tag for outputs
-    var outputEl = document.getElementById("script-output");
+  for (var i=0; i<=number; i++) {
     var newEl = document.createElement("p");
-    outputEl.appendChild(newEl);
-    console.log(input);
-    var outputString = '';
-    if (input%7 == 0) {
-      newEl.innerHTML = input + " FizzBuzz";
-      outputEl.appendChild(newEl);
-      console.log("FizzBuzz")
-    } else if (input%3 == 0) {
-      newEl.innerHTML = input + " Fizz";
-      outputEl.appendChild(newEl);
-      console.log("Fizz")
-    } else if (input%5 == 0) {
-      newEl.innerHTML = input + " Buzz";
-      outputEl.appendChild(newEl);
-      console.log("Buzz")
-    } else {
-      console.log("Number: " + input)
+    console.log(i);
+    //Create String for outputs
+    var outputString = i + " ";
+    if (i%3 == 0) {
+      outputString += "Fizz";
+      console.log("Fizz");
+    }
+    if (i%5 == 0) {
+      outputString += "Buzz";
+      console.log("Buzz");
+    }
+    if (i%7 == 0) {
+      outputString += "Boom";
+      console.log("Boom");
     }
   }
-    // addNewParagraphToOutput(outputString);
-//     return;
-// }
+    newEl.innerHTML = outputString;
+    outputEl.appendChild(newEl);
+}
+
 
 var button = document.getElementById("my-button");
-button.addEventListener("click", function() {
+button.addEventListener("click", function(fizzBoomBam) {
   var userInput = document.getElementById("num-input").value;
   console.log(userInput);
+  console.log("button pushed");
 })
 
 
