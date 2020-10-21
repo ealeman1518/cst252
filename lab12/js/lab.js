@@ -28,9 +28,13 @@ function fizzBoomBam(number) {
       outputString += "Boom";
       console.log("Boom");
     }
-  }
+    if (i%13 == 0) {
+      outputString += "Shoot";
+      console.log("Shoot");
+    }
     newEl.innerHTML = outputString;
     outputEl.appendChild(newEl);
+  }
 }
 
 
