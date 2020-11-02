@@ -1,0 +1,39 @@
+.challenge{
+  color: blue;
+}
+
+.problem{
+  color: pink;
+}
+
+.result{
+  color: black;
+}
+
+#output{
+  border: black 3px solid;
+  padding: 10px;
+}
+
+#script-output{
+  border: black 3px solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#content{
+  padding: 20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  margin-top: 20px;
+  color: blue;
+}
+
+h3{
+  text-decoration: underline;
+}
