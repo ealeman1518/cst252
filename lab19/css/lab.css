@@ -1,15 +1,3 @@
-.challenge{
-  color: blue;
-}
-
-.problem{
-  color: pink;
-}
-
-.result{
-  color: black;
-}
-
 #output{
   border: black 3px solid;
   padding: 10px;
