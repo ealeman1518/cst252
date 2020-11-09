@@ -8,13 +8,6 @@
 
 math = "http://numbersapi.com/5/math"
 
-// $.ajax({
-//   url: math,
-//   data: {id: 123},
-//   type: "GET",
-//   dataType: "json",
-// });
-
 $("#activate").click(function() {
   console.log("Click");
 
