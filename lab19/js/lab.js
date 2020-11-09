@@ -22,7 +22,7 @@ $("#activate").click(function() {
     url: math,
     data: {id: 123},
     type: "GET",
-    dataType: "json",
+    datatype: "json",
   })
 
   //Taken from the jsfiddle example during class lecture on AJAX by Wes Modes
