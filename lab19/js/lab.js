@@ -6,20 +6,20 @@
 
 
 
-math = "http://numbersapi.com/5/math"
+memes = "http://numbersapi.com/5/math"
 
 $("#activate").click(function() {
   console.log("Click");
 
   $.ajax({
-    url: math,
-    data: {id: 123},
+    url: memes,
+    // data: {id: 123},
     type: "GET",
-    datatype: "json",
+    // datatype: "json",
   })
 
   //Taken from the jsfiddle example during class lecture on AJAX by Wes Modes
-  .done(function( data ) {
+  .done(function(data) {
       // alert("Success!");
       var quote = data.message;
       $("#output").append("<p>" + quote)
