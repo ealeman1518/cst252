@@ -1,10 +1,14 @@
-
+/**
+  * Eduardo Aleman
+  * 11/29/2020
+  * Public Domain
+**/
 
 
 var endpoint = "https://xkcd.com/info.0.json";
 
 
-
+//Referenced .done from Val's lab 20
 $("#button").click(function() {
   $.ajax({
     url: endpoint,
